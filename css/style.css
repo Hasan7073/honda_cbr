@@ -1,6 +1,6 @@
  body{padding: 0;
   margin: 0;
- font-family: 'Prompt', sans-serif;
+ font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
@@ -103,3 +103,160 @@ img{
 }
 
 /*====================*/
+.header_section{
+background:#264653;
+overflow: hidden;
+display: block;
+padding-bottom: 70px;
+}
+.custom_container{
+max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+.menu_area{
+    display: flex;
+    justify-content: right;
+    padding-top: 46px;
+    align-items: center;
+}
+.nav_menu ul{
+    display: flex;
+    padding: 0px 100px;
+}
+.nav_menu ul li{
+
+}
+.nav_menu ul li a{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 0px 36px
+}
+.log_button{
+border-radius: 5px;
+ background: #E76F51;
+padding: 10px 24px
+}
+.log_button a{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/*Banner section */
+.banner_area{
+padding: 87px 0px;
+    overflow: hidden;
+}
+.custom_container{
+
+}
+.banner_full{
+display: flex;
+}
+.banner_left{
+max-width: 456px;
+    margin: auto;
+    width: 100%;
+}
+.banner_left p{
+color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 18px;
+}
+
+.banner_left h1{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 18px;
+}
+.banner_left h4{
+    color: #E0E0E0;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 21px;
+}
+.Purchase_button{
+border-radius: 5px;
+    background: #E76F51;
+    display: initial;
+    padding: 10px 30px;
+}
+.Purchase_button a{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.custom_container{
+
+}
+.gallary{
+padding: 200px 0px;
+}
+.gallary_contant{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallary_contant img{
+
+}
+/*latest News section */
+.latest_News_area{
+
+}
+.latest_News_area h1{
+  
+}
+.custom_container{
+
+}
+.latest_News_full{
+
+}
+.Single_latest{
+
+}
+.Single_latest img{
+
+}
+.Single_latest h1{
+
+}
+.Single_latest p{
+
+}
+.readme_button {
+
+}
+.readme_button a{
+
+}
+

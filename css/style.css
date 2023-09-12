@@ -137,6 +137,10 @@ font-weight: 500;
 line-height: normal;
 padding: 0px 36px
 }
+.nav_menu ul li a:hover{
+color: #E76F51;
+}
+
 .log_button{
 border-radius: 5px;
  background: #E76F51;
@@ -151,6 +155,9 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.log_button a:hover{
+  color: #264653;
+}
 /*Banner section */
 .banner_area{
 padding: 87px 0px;
@@ -161,17 +168,17 @@ padding: 87px 0px;
 }
 .banner_full{
 display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .banner_left{
-max-width: 456px;
-    margin: auto;
-    width: 100%;
+
 }
 .banner_left p{
 color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 22px;
@@ -197,6 +204,9 @@ padding-bottom: 18px;
     font-weight: 300;
     line-height: normal;
     padding-bottom: 21px;
+    max-width: 456px;
+    margin: auto;
+    width: 100%;
 }
 .Purchase_button{
 border-radius: 5px;
@@ -222,7 +232,7 @@ padding: 200px 0px;
 }
 .gallary_contant{
 display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .gallary_contant img{
@@ -230,33 +240,221 @@ display: flex;
 }
 /*latest News section */
 .latest_News_area{
-
+padding-bottom: 180px;
 }
 .latest_News_area h1{
-  
+      color: #0A0826;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 47px;
+    text-transform: capitalize;
 }
 .custom_container{
 
 }
 .latest_News_full{
-
+display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .Single_latest{
-
+    max-width: 337px;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px 20px;
 }
 .Single_latest img{
 
 }
-.Single_latest h1{
+.Single_latest h2{
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'liga' off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 40px;
 
 }
 .Single_latest p{
-
+    color: #6C6C6C;
+    font-feature-settings: 'liga' off;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 55px;
+    padding-top: 10px;
 }
 .readme_button {
-
+    border-radius: 5px;
+    background: #E76F51;
+    display: initial;
+    padding: 10px 30px;
 }
 .readme_button a{
-
+color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
+/*End latest News section */
+
+/*Satrt_Happy_section */
+.happy_client_area{
+
+}
+.custom_container{
+
+}
+.Happy_heading{
+text-align: center;
+    padding-bottom: 52px;
+}
+.Happy_heading h1{
+color: #0A0826;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Happy_heading h1 span{
+color: #E76F51;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.happy_clint_full{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.happy_contant{
+max-width: 322px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: var(--light-background-color, #FFF);
+    padding: 40px 35px;
+}
+
+.happy_contant p{
+    color: #6C6C6C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.happy_contant h2{
+    color: var(--primary-color, #23A6F0);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 15px 0px;
+}
+.happy_contant h4{
+color: var(--text-color, #252B42);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+/*Frequently_Asked_Questions*/
+.Frequently_Asked_Questions{
+padding-top: 80px;
+    padding-bottom: 60px;
+}
+.custom_container{
+
+}
+.F_Asked_Que_contant{
+
+}
+.F_Asked_Que_contant h1{
+color: #0D0925;
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; 
+}
+.F_Asked_Que_contant h1 span{
+color: #E76F51;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px;
+}
+
+.F_Asked_Que_full{
+     display: flex;
+    align-items: center;
+    padding-top: 132px;
+    justify-content: space-between; 
+}
+.Asked_Que_contant_left{
+padding-right: 112px;
+}
+.Asked_Que_contant_left img{
+
+}
+.Asked_Que_contant_right{
+    max-width: 552px;
+    margin: auto;
+    width: 100%;
+}
+.intro_heading{
+
+}
+.intro_heading_1{
+
+}
+.intro_heading_1 h2{
+
+}
+.intro_heading_1 img{
+
+}
+.intro_heading_1 p{
+
+}
+.intro_heading_2{
+
+}
+.intro_heading_2 h2{
+
+}
+.intro_heading_2 img{
+
+}

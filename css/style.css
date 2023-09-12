@@ -223,6 +223,9 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.Purchase_button a:hover{
+  color: #264653;
+}
 
 .custom_container{
 
@@ -310,7 +313,9 @@ color: #FFF;
     font-weight: 500;
     line-height: normal;
 }
-
+.readme_button a:hover{
+  color: #264653;
+}
 /*End latest News section */
 
 /*Satrt_Happy_section */

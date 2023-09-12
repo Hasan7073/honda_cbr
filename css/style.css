@@ -486,6 +486,7 @@ line-height: 28px;
 /*footer */
 .footer{
 padding-top: 60px;
+padding-bottom: 84px;
 background: var(--default-black, #0B0D17);
 }
 .custom_container{
@@ -523,6 +524,9 @@ display: flex;
     font-weight: 400;
     line-height: 26px;
     padding-right: 24px;
+}
+.footer_nav ul li a:hover{
+color: #E76F51;
 }
 .footer_nav ul li a p{
 

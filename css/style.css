@@ -216,6 +216,10 @@ border-radius: 5px;
     display: inline-block;
     padding: 10px 30px;
 }
+.Purchase_button :hover{
+   background: #264653;
+   transition: 0.6s;
+}
 .Purchase_button a{
 color: #FFF;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -225,9 +229,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.Purchase_button a:hover{
-  color: #264653;
-}
+
 
 .custom_container{
 
@@ -509,7 +511,13 @@ line-height: 28px; /* 140% */
 
 }
 .intro_heading_paragrap p{
- 
+ color: #7E848C;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
 }
 .intro_heading_right{
 
